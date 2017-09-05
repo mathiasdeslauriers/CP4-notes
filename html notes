@@ -1,0 +1,11 @@
+# CP4-notes
+<!DOCTYPE html> must be the first line of code in all of your HTML documents.\
+t indicates to the browser that you will use HTML in the document, but it doesn't actually add any HTML structure or content.
+Anything between the opening <html> and closing </html> tags will be interpreted as HTML code. 
+Without these tags, it's possible that browsers could incorrectly interpret your HTML code.
+The <head> element contains the metadata for a web page. Metadata is information about the page that isn't displayed directly on the web page
+The browser displays the title of the page because the title can be specified directly inside of the <head> element, by using a <title> tag.
+Before we can add content that a browser will display, we have to add a body to the HTML file. 
+Only content inside the opening and closing body tags can be displayed to the screen.
+The line break element <br /> is one example of a self-closing tag. You can use it anywhere within your HTML code. 
+The result is a line break in the browser.
