@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<p>click here for HTML notes</p>
+	<a href="./HTML notes.html">HTML Notes</a>
+	<title>CSS Notes</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+	<body>
+		<h1>CSS Notes</h1>
+		
+		<h2>First part of the course</h2>
+		
+			<p> CSS stands for cascading style sheets.<br />
+			to open the tag use the style attribute.<br />
+			to plug in a CSS file you can use the .css like style.css<br />
+			the css file and the index.html file need to be linked<br />
+			use the < link> element to link the files.<br />
+			< link> require the following elements:<br />
+					1.href which is the anchor element<br />
+					2.type which determines the type of document<br />
+					that youre linking it too<br />
+					3.rel which describes the relationship between the files<br />
+			all paragraph elements will be selected using a CSS selector<br />
+			the paragraph elements must be followed by curvy brackets<br />
+			CSS has more than tags but also has attributes<br />
+			exmple:</p>
+			<p> class="brand">Sole Shoe Company</p><br />
+			<p>class is an attribute made to "brand"<br />
+			to select a html element using CSS put a dot before the elements name<br />
+			if an element needs to be styled uniquely then you can give it an id<br />
+			to add an id use the id attribute<br />
+			to select an id element put a hashtag before the element<br />
+			id is the most specific, then classes, and lastly tags<br />
+			
+			some html elements may require two or more CSS selectors<br />
+			!important can be used on specific attributes and wil overide any syle</p><br />
+			<p> example: p{color: blue !important;<br />
+			}<br />
+			.main p{color: red;}</p><br />
+			<p> you can write multiple unrelated selectors to give the element<br />
+			the same style by seperation the selectors by a coma</p><br />
+		
+		<h3>introduction To Visual Rules</h3>
+		
+			<p>to style an HTML element you have to write a CSS declaration inside the body of the selector.<br />
+			EXAMPLE:h1{color: blue;<br />
+			}<br />
+			CSS declarationsconsist of a property and value<br />
+			PROPERTY: the property to style the element(size,color,etc)<br />
+			VALUE: the value of the property (18px for size, blue for color,etc.)<br />
+			to change the font use the font-famiy property<br />
+			EXAMPLE: h1{font-family: Garamond;<br />
+			}<br />
+			when the name of the the font is more than one word put it in quotations<br />
+			to cahnge the font size use font-size property<br />
+			EXAMPLE: p{font-size: 18px;<br />
+			}<br />
+			font-weight propety saus if the text is bold or thin<br />
+			EXAMPLE: p{font-weight: bold;<br />
+			}<br />
+			to align text we can use the text-align property: left, center, right<br />
+			there are two things that color can affect: foreground, and backround<br />
+			foreground is the color of the element<br />
+			backround changes the backround of the element<br />
+			opacity is used to tell if something is visiple: 100% is fully visible. 0% is invisible<br />
+			you can put in a backround image using backroud-image property. it has to be followed by the URL<br />
+			height and width can allow you to change the pixels orthe dimensions of a box.<br />
+			border surrounds elements.<br />
+			borders can be set using width, style,and color.<br />
+			1.width determines the thickness of the border(thin,medium,or thick)<br />
+			2.style determines the desingn of the border(none, dotted, and solid)<br />
+			3.clor determines the color of the border.</p><br />
+			<p> EXAMPLE:p {
+						 border: 3px solid coral;
+						}</p>
+					
+			<p>a border doesnt have to be square. You can alter it with (border-radius).<br />
+			the space between the border and the element is known as padding.<br />
+			you can change the amount of padding by using padding then adding an amount of pixels.<br />
+			you can be more specific:<br />
+									1.PADDING-TOP<br />
+									2.PADDING-RIGHT<br />
+									3.PADDING-BOTTOM<br />
+									4.PADDING-LEFT<br />
+			you can declare the padding in one line in clockwise order.</p><br />
+			<p>magins determin the space outside the box.<br />
+			you can be more specific:<br />
+									1.margin-top<br />
+									2.margin-bottom<br />
+									3.margin-right<br />
+									4.margin-left<br />
+			you can write margins on all 4 sides in one line: clockwise.<br />
+			margin can also be used to center content.<br />
+			<br />
+			1.min-width: makes sure of a minimum width of an elemts box.<br />
+			2.max-width: makes sure that theres a maximum width to an elements box.<br />
+			<br />
+			1.max-height:ensures a maximum height for the box<br />
+			2.min-width: ensures a minimum height for the box</p><br />
+			
+			<p>The overflow property controls what happens to content that spills, or overflows, outside its box. It can be set to one of the following values:<br />
+			hidden:when set to this value, any content that overflows will be hidden from view.<br />
+			scroll:when set to this value, a scrollbar will be added to the element's box so that the rest of the content can be 	viewed by scrolling.<br />
+			visible:when set to this value, the overflow content will be displayed outside of the containing element. note, this is the default value.<br />
+			
+			Elements can be hidden from view with the visibility property.<br />
+			The visibility property can be set to one of the following values:<br />
+			hidden:hides an element.<br />
+			visible:displays an element.</p>
+		
+		<h4>Changing the Box model</h4>
+		
+			<p>box-sizing: controls the box dimensions< br/>
+			border-box: not affected by padding or thickness and is the new value for the box.</p><br />
+		
+		<h5>Display and positioning</h5>
+		
+			<p>position: put the element in three different positions:<br />
+				relative: its position in relation of the default position<br />
+				absolute: element can be pu on any part of the page, but will disapear when scrolled<br />
+				fixed: can be put on any part of the page but will stay in view.<br />
+			z-index: how far back or how close it will show.<br />
+			float: how far left or right the element will be<br />
+			clear the clear property will allow you to have nothing on the side of the element.</p><br />
+		
+	</body>
+</html>

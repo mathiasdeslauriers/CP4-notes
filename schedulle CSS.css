@@ -1,0 +1,91 @@
+/*This will allow you to change things within the first heading*/
+h1{
+/*this will center the text*/
+	text-align: center;
+/*this will change the text's color*/
+	color: red;
+/*this will change the size of the font to a certain size. In this case its 40 pixels*/
+	font-size: 40px;
+	font-style: oblique;
+}
+
+/*This will allow you to change things within the table heading*/
+th{
+	font-size: 30px;
+	background-color: white;
+	border: 5px dashed maroon;
+}
+
+/*This will allow you to change things within the Class of religion*/
+.religion{
+	background-color: violet;
+	border: 3px solid purple;
+}
+
+/*This will allow you to change things within the Class of science*/
+.science{
+	background-color: chartreuse;
+	border: 3px solid green;
+}
+
+/*This will allow you to change things within the Class of French*/
+.french{
+	background-color: coral;
+	border: 3px solid orange;
+}
+
+/*This will allow you to change things within the Class of english*/
+.english{
+	background-color: turquoise;
+	border: 3px solid blue;
+}
+
+/*This will allow you to change things within the Class of gym*/
+.gym{
+	background-color:maroon;
+	border: 3px solid brown;
+}
+
+/*This will allow you to change things within the Class of computerprogram*/
+.computerprogram{
+	background-color:teal;
+	border: 3px solid black;
+}
+
+/*This will allow you to change things within the Class of math*/
+.math{
+	background-color: tomato;
+	border: 3px solid red;
+}
+
+/*This will allow you to change things when the class is nothing*/
+.nothing{
+	border: 3px solid black
+}
+
+/*This will allow you to change things within the Class of history*/
+.history{
+	background-color: AntiqueWhite;
+	border: 3px solid chocolate;
+}
+
+/*This will allow you to change things within the Class of music*/
+.music{
+	background-color: CadetBlue;
+	border: 3px solid blue;
+}
+
+/*This will allow you to change things within the Class of speech*/
+.speech{
+	border: 3px solid black;
+}
+
+/*This will allow you to change things within the Class of homeroom*/
+.homeroom{
+	border:3px solid black;
+}
+
+/*This will allow you to change things within the Class of LA*/
+.LA{
+	border: 3px solid black;
+}
