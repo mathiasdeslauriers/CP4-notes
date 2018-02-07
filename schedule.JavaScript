@@ -2,8 +2,10 @@ function myFunction() {
     document.getElementById("demo").style.color= "red";
 }
 function myFunction() {
- document.getElementById("classes").style.backgroundColor = "black";
- document.getElementById("classes").style.color = "white";
+var x = document.getElementByClassName("math");
+ fr (a=0 ; a<x.lenght ; i++){
+	 x{a}.innerHTML = style.backgroundColor = "black";
+ }
 }
 var a = "classes"
 switch (a) {
