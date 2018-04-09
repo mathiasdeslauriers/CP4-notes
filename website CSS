@@ -1,0 +1,25 @@
+i{
+	float: left;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li {
+	padding: 20px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	background-color: #8B0000;
+}
+
+.title{
+	text-align: center;
+	color: #8B0000;
+}
+
+body{
+	background-color: #808000;
+}
