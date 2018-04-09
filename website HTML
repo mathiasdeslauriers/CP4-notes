@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="./CSS of website.css" type="text/css" rel="stylesheet">
+		<script src="JAVASCRIPT of website.js"></script> 
+		<title>MBN Bikes</title>
+	<head>
+
+		<body>
+			<h1 class=title>MBN Bikes</h1>
+			<ul>
+				<li><a href="./HTML of websit.html">Home</a><br /></li>
+				<li><a href="./Bikes.html">Bikes</a><br /></li>
+				<li><a href="./Droppers.html">Dropper Posts</a><br /></li>
+				<li><a href="./Contact Us.html">Contact Us</a><br /></li>
+			</ul>
+			<img src="https://images.vailresorts.com/image/upload/ar_4:3,c_fill,dpr_1.0,f_auto,g_auto,q_auto/v1/Whistler%20Blackcomb/Heros/2000x600/Bike%20Park/ONeill-RO1D8615.jpg" height="650px" width="800px" align="left">
+			<p class="general"> 
+			Mountain Biking is a sport that is described a lot like a drug. The reason why that is is because its a sport
+			that will hook you and you will end up spending all of your money on bikes. The formula for owned bikes is n + 1. 
+			Where n is the number of bikes you currently own. While that is an up and coming sport, theres a lot of places where you can do it.
+			many mountains are seeing it as a summer revenue so its available in Whistler for example. 
+			Mountain biking is EXTREMELY expensive. One of the most expensive sports out there. The reason being is the price of bikes these day.
+			I have a three grand car and my bike is 11 grand. I have composed a list of the best bikes for the kit that they offer. Also,
+			Ive done the same with dropper posts.
+			</p class="why">
+			<img src="https://cdn.shopify.com/s/files/1/2590/2338/products/18Carbine-FTY-Red-45_620x.png?v=1512003500" align="right" width="725px" height="650px">
+			<p>
+			When I say that bikes are expensive, i mean they really are! Take a look at this one right here. Nice right?
+			Most people are suprised when i tell them that the price of is 10,799 dollars USD.
+			It could be seen at the Bently of the trails. Manufactures own the Monopoly so they can drive up the price.
+			This is why i made a list of bikes that are "worth is for their price".
+			</b>
+		</body>
+</html>		
+			
