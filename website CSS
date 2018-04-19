@@ -1,18 +1,21 @@
-i{
-	float: left;
-}
-
 ul{
 	list-style-type: none;
 	overflow: hidden;
 }
 
 li {
+	float: left;
 	padding: 20px;
 	text-align: center;
 	display: block;
-	text-decoration: none;
 	background-color: #8B0000;
+}
+
+li a  {
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	font-family: monospace;
 }
 
 .title{
@@ -22,4 +25,17 @@ li {
 
 body{
 	background-color: #808000;
+}
+
+.opening{
+	padding: 30px;
+}
+
+.price{
+	padding:30px;
+}
+
+p{
+	font-size: 22px;
+	font-family: cursive;
 }
