@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 	<head>
 		<link href="./CSS of website.css" type="text/css" rel="stylesheet">
@@ -6,31 +6,72 @@
 		<title>MBN Bikes</title>
 	<head>
 
-		<body>
-			<h1 class=title>MBN Bikes</h1>
+		<body> 
+		<div>
+			<h1 class=title>Mountain Bike Network</h1>
 			<ul>
 				<li><a href="./HTML of websit.html">Home</a><br /></li>
 				<li><a href="./Bikes.html">Bikes</a><br /></li>
 				<li><a href="./Droppers.html">Dropper Posts</a><br /></li>
 				<li><a href="./Contact Us.html">Contact Us</a><br /></li>
 			</ul>
-			<img src="https://images.vailresorts.com/image/upload/ar_4:3,c_fill,dpr_1.0,f_auto,g_auto,q_auto/v1/Whistler%20Blackcomb/Heros/2000x600/Bike%20Park/ONeill-RO1D8615.jpg" height="650px" width="800px" align="left">
-			<p class="general"> 
-			Mountain Biking is a sport that is described a lot like a drug. The reason why that is is because its a sport
-			that will hook you and you will end up spending all of your money on bikes. The formula for owned bikes is n + 1. 
-			Where n is the number of bikes you currently own. While that is an up and coming sport, theres a lot of places where you can do it.
-			many mountains are seeing it as a summer revenue so its available in Whistler for example. 
-			Mountain biking is EXTREMELY expensive. One of the most expensive sports out there. The reason being is the price of bikes these day.
-			I have a three grand car and my bike is 11 grand. I have composed a list of the best bikes for the kit that they offer. Also,
-			Ive done the same with dropper posts.
-			</p class="why">
-			<img src="https://cdn.shopify.com/s/files/1/2590/2338/products/18Carbine-FTY-Red-45_620x.png?v=1512003500" align="right" width="725px" height="650px">
-			<p>
-			When I say that bikes are expensive, i mean they really are! Take a look at this one right here. Nice right?
-			Most people are suprised when i tell them that the price of is 10,799 dollars USD.
-			It could be seen at the Bently of the trails. Manufactures own the Monopoly so they can drive up the price.
-			This is why i made a list of bikes that are "worth is for their price".
-			</b>
+		</div>
+		
+		
+		<div id="CarouselImages" class="BikeSlide" data-ride="carousel">
+<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#CarouselImages" data-slide-to="0" class="active"></li>
+				<li data-target="#CarouselImages" data-slide-to="1"></li>
+				<li data-target="#CarouselImages" data-slide-to="2"></li>
+			</ol>
+
+<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+		<div class="item active">
+			<img src="https://p.vitalmtb.com/photos/products/20133/photos/26822/s1600_2018_Specialized_Enduro_COMP_27_5_BLK_HYP_HERO.jpg?1502934818" alt="Specialized">
+		</div>
+
+		<div class="item">
+			<img src="https://cdn.shopify.com/s/files/1/2426/4557/products/M16-PRO-side_620x.png?v=1511288097" alt="intense">
+		</div>
+
+		<div class="item">
+			<img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwid0pS2h9PaAhVsmeAKHQ2oBo8QjRx6BAgAEAU&url=https%3A%2F%2Fwww.vitalmtb.com%2Fproduct%2Fguide%2FBikes%2C3%2FYT%2FCapra-27-AL-Comp%2C22096&psig=AOvVaw3YFRppTiskzR18Lt7FQJi-&ust=1524664337575652" alt="YT">
+		</div>
+		</div>
+
+  <!-- Left and right controls -->
+		<a class="LeftCarousel" href="#CarouselImages" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="RightCarousel" href="#CarouselImages" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		</div>
+		<div class = "price">
+			<img src="https://images.vailresorts.com/image/upload/ar_4:3,c_fill,dpr_1.0,f_auto,g_auto,q_auto/v1/Whistler%20Blackcomb/Heros/2000x600/Bike%20Park/ONeill-RO1D8615.jpg" height="650px" width="725px" align="left">
+		</div>
+		
+		<p class="general"> 
+		Mountain Biking is a sport that is described a lot like a drug. The reason why that is is because its a sport
+		that will hook you and you will end up spending all of your money on bikes. The formula for owned bikes is n + 1. 
+		Where n is the number of bikes you currently own. While that is an up and coming sport, theres a lot of places where you can do it.
+		many mountains are seeing it as a summer revenue so its available in Whistler for example. 
+		Mountain biking is EXTREMELY expensive. One of the most expensive sports out there. The reason being is the price of bikes these day.
+		I have a three grand car and my bike is 11 grand. I have composed a list of the best bikes for the kit that they offer. Also,
+		Ive done the same with dropper posts.
+		</p class="general">
+		<div class="opening">
+		<img src="https://cdn.shopify.com/s/files/1/2590/2338/products/18Carbine-FTY-Red-45_620x.png?v=1512003500" align="right" width="725px" height="650px">
+		</div>
+		<p class="why">
+		When I say that bikes are expensive, i mean they really are! Take a look at this one right here. Nice right?
+		Most people are suprised when i tell them that the price of is 10,799 dollars USD.
+		It could be seen at the Bently of the trails. Manufactures own the Monopoly so they can drive up the price.
+		This is why I made a list of bikes that are "worth it for their price".
+		</p class="why">
 		</body>
 </html>		
-			
