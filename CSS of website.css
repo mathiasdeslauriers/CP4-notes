@@ -9,6 +9,7 @@ li {
 	text-align: center;
 	display: block;
 	background-color: #8B0000;
+	
 }
 
 li a  {
@@ -19,7 +20,7 @@ li a  {
 }
 
 .title{
-	text-align: center;
+	text-align: left;
 	color: #8B0000;
 }
 
@@ -39,3 +40,27 @@ p{
 	font-size: 22px;
 	font-family: cursive;
 }
+
+.mySlides{
+	height: 700px;
+}
+
+.text{
+	column-count: 2;
+}
+
+.general	{
+	background-color: white;
+	color: black;
+	width: 500px;
+	height: 500px;
+	text-align: right;
+}
+.why{
+	background-color: white;
+	color: black;
+	width: 500px;
+	height: 500px;
+	text-align: left;
+}
+
