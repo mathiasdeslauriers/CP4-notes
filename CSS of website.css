@@ -1,6 +1,7 @@
 ul{
 	list-style-type: none;
 	overflow: hidden;
+	background-color: #8B0000
 }
 
 li {
@@ -8,7 +9,6 @@ li {
 	padding: 20px;
 	text-align: center;
 	display: block;
-	background-color: #8B0000;
 	
 }
 
@@ -43,6 +43,7 @@ p{
 
 .mySlides{
 	height: 700px;
+	background-color: grey;
 }
 
 .text{
@@ -54,6 +55,7 @@ p{
 	color: black;
 	width: 500px;
 	height: 500px;
+	padding:10px 15px;
 	text-align: right;
 }
 .why{
@@ -63,4 +65,47 @@ p{
 	height: 500px;
 	text-align: left;
 }
+.blackleftbutton{
+	background-color:yellow;
+	position: absolute;
+	top: 65%;
+	left: 2%;
+	transform: translate(0%,-50%);
+	border: none;
+	display: inline-block;
+	padding: 20px 19px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
 
+.blackrightbutton{
+	background-color:yellow;
+	position: absolute;
+	top: 57%;
+	right: 2%;
+	transform: translate(0%,50%);
+	border: none;
+	display: inline-block;
+	padding: 20px 19px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;	
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+}
