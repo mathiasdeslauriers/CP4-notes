@@ -42,15 +42,17 @@ p{
 }
 
 .mySlides{
-	height: 700px;
 	background-color: grey;
+}
+.mySlides2{
+	width:50%;
 }
 
 .text{
 	column-count: 2;
 }
 
-.general	{
+.general{
 	background-color: white;
 	color: black;
 	width: 500px;
@@ -109,6 +111,17 @@ button, input, select, textarea {
     margin: 0;
 }
 
-.KSLev{
-	height:25%;
+.social{
+	height:40%;
+	width:40%;
+	float: left;
+	background-color: #808000;
+}
+
+h2{
+	font-size: 45px;
+}
+
+h3{
+	font-size: 30px
 }
