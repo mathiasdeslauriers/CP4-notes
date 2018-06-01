@@ -160,3 +160,16 @@ h2{
 h3{
 	font-size: 30px
 }
+
+.table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.th{
+	border: 5px dashed maroon;
+}
+
+.td{
+	border: 4px full blue;
+}
