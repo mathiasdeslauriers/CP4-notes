@@ -166,10 +166,13 @@ h3{
 	width: 100%;
 }
 
-.th{
+th{
 	border: 5px dashed maroon;
+	width: 25%;
 }
 
-.td{
-	border: 4px full blue;
+td{
+	border: 4px dashed blue;
+	width: 25%;
+	text-align: center;
 }
