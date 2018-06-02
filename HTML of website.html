@@ -1,36 +1,43 @@
+<!--This is the home page of the website-->
 <!DOCTYPE html>
 <html>
 	<head>
 		<link href="./CSS of website.css" type="text/css" rel="stylesheet">
+<!--this is the title of the website-->
 		<title>MBN Bikes</title>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<body> 
+		<body>
+<!--This is to add the bar up top with all of the linked pages of the website-->		
 		<div>
 			<h1 class=title>Mountain Bike Network</h1>
 			<ul>
+<!--These are the different pages of website-->
 				<li><a href="./HTML of website.html">Home</a><br /></li>
 				<li><a href="./Bikes.html">Bikes</a><br /></li>
 				<li><a href="./Droppers.html">Dropper Posts</a><br /></li>
 				<li><a href="./Contact Us.html">Contact Us</a><br /></li>
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" style = "width:10%">
+<!--this is to add a canadian flag to that bar-->
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" style = "width:8%">
 			</ul>
 		</div>
+<!--This is the start of a slideshow of the dropper posts-->
 		<div class="Slideshow">
+<!--These are the different images-->		
 			<img class="mySlides" src="http://s14761.pcdn.co/wp-content/uploads/2017/11/Bike-Check-Specialized-Stumpjumper-FSR-29-Jared-Graves-3.jpg" style="width:100%">
 			<img class="mySlides" src="https://static.canyon.com/_img/bikes/2018/sender-cf-8_c1180.png" style="width:100%">
 			<img class="mySlides" src="https://nsmb.com/media/images/nsmb_2017_gearreview_SantaCruz_n.2e16d0ba.fill-1920x1200.jpg" style="width:100%">
-
+<!--these are the buttons to change the images on the slideshow-->
 			<button class="blackleftbutton" onclick="plusDivs(-1)">&#10094;</button>
 			<button class="blackrightbutton" onclick="plusDivs(1)">&#10095;</button>
 		</div>
 		
-
+<!--This is for the first image outside of the slideshow-->
 		<div class = "price">
 			<img src="https://images.vailresorts.com/image/upload/ar_4:3,c_fill,dpr_1.0,f_auto,g_auto,q_auto/v1/Whistler%20Blackcomb/Heros/2000x600/Bike%20Park/ONeill-RO1D8615.jpg" height="520px" width="650px" align="left">
 		</div>
 		
-		
+<!--This is the general information of the sport-->
 		<p class="general"> 
 		Mountain Biking is a sport that is often of described as a drug. The reason why that is is because its a sport
 		that will hook you and you will end up spending all of your money on bikes. The formula for owned bikes is n + 1. 
@@ -41,10 +48,11 @@
 		I've done the same with dropper posts.
 		</p>
 		</div>
-		
+
+<!--This is the image of price tags of bikes-->
 		<div class="opening">
 		<img src="https://i.ytimg.com/vi/aa1jRCM70_E/maxresdefault.jpg" align="right" width="725px" height="500px" align="left">
-	
+<!--This is the example of the prices of bikes-->
 		<p class="why">
 		<br></br>
 		<br></br>
@@ -54,15 +62,13 @@
 		This is why I made a list of bikes that are "worth it for their price".
 		</p>
 		</div>
-		
+<!--This is the start of my javascript for the slideshow-->	
 		<script>
 			var slideIndex = 1;
 			showDivs(slideIndex);
-
 			function plusDivs(n) {
 			showDivs(slideIndex += n);
 			}
-
 			function showDivs(n) {
 				var i;
 				var x = document.getElementsByClassName("mySlides");
@@ -75,9 +81,4 @@
 			}
 		</script>
 		</body>
-</html>		
-
-			
-			
-			
-		
+</html> 
