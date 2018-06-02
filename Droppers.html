@@ -1,20 +1,26 @@
+<!--this is to start my page of the dropper post-->
 <!DOCTYPE html>
 <html>
 	<head>
+<!--This is to link my css page-->
 		<link href="./CSS of website.css" type="text/css" rel="stylesheet">
 		<title>MBN Dropper Posts</title>
 	</head>
 	
 		<body>
+<!--This is to add the bar up top with all of the linked pages of the website-->
 		<div>
 			<h1 class=title>Mountain Bike Network</h1>
 			<ul>
+<!--These are the different pages of website-->
 				<li><a href="./HTML of website.html">Home</a><br /></li>
 				<li><a href="./Bikes.html">Bikes</a><br /></li>
 				<li><a href="./Droppers.html">Dropper Posts</a><br /></li>
 				<li><a href="./Contact Us.html">Contact Us</a><br /></li>
+<!--this is to add a canadian flag to that bar-->
 				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" style = "width:8%">
 			</ul>
+<!--This is the start of the info on the dropper poosts-->
 		</div>
 		<h2 class =title2>Dropper Posts</h2>
 		<h3 class =subtitle>What is a Dropper Post?<h3>
@@ -25,24 +31,28 @@
 		Problem is that these devices will often set you back around 450$.</br>
 		This is why I have composed a list of dropper posts that are worth their price.
 		</P>
+<!--This is the start of a slideshow of the dropper posts-->
 		<div class="droppers">
+<!--These are the different images-->
 			<img class="mySlides2" src="https://s14761.pcdn.co/wp-content/uploads/2014/08/Rose-Granite-Chief-test-review-longterm-test-benjamin-werling_-391-810x540.jpg" style = "width:50%">
 			<img class="mySlides2" src="https://images.coloradocyclist.com/product/800/k/ks-lev-integra-dropper-post-100-272mm.jpg"style = "width:50%">
 			<img class="mySlides2" src="https://www.bikethomson.com/wp-content/uploads/2015/10/bike-thomson-21.jpg"style = "width:50%">
 			<img class="mySlides2" src="https://www.ubyk.co.uk/static_files/catalog/images/THO-DP-E103z.jpg"style = "width:50%">
-
+<!--these are the buttons to change the images on the slideshow-->
 			<button class="blackleftbutton2" onclick="plusDivs2(-1)">&#10094;</button>
 			<button class="blackrightbutton2" onclick="plusDivs2(1)">&#10095;</button>
 		</div>
-		
+<!--These are the different dropper posts-->
+		<p>
+			The only noteworthy dropper posts are the KS Lev integra and the thompson elite. The KS lev integra is really reliable and is good. The thompson elite costs more, but is still reliable and is more reactive.
+		</p>
+<!--This is the start of my javascript for the slideshow-->
 		<script>
 			var slideIndex2 = 1;
 			showDivs2(slideIndex2);
-
 			function plusDivs2(n) {
 			showDivs2(slideIndex2 += n);
 			}
-
 			function showDivs2(n) {
 				var i;
 				var x = document.getElementsByClassName("mySlides2");
