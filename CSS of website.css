@@ -1,49 +1,51 @@
+/* This is to style the unordered list that is the list of linked websites*/
 ul{
 	list-style-type: none;
 	overflow: hidden;
 	background-color: #8B0000;
 }
-
+/* This is to style the unordered list that is the list of linked websites*/
 li {
 	float: left;
 	padding: 30px;
 	text-align: center;
 	display: block;
 }
-
+/* This is to style the unordered list that is the list of linked websites*/
 li a  {
 	text-decoration: none;
 	color:white;
 	font-size: 25px;
 	font-family: monospace;
 }
-
+/* This is to style the title of the website*/
 .title{
 	text-align: left;
 	color: #8B0000;
 }
-
+/* This is to change the background color of all the website pages*/
 body{
 	background-color: #808000;
 }
-
+/* This is to style the padding of the images*/
 .opening{
 	padding: 30px;
 }
-
+/* This is to style the text of the price of bikes*/
 .price{
 	padding:30px;
 	float: left;
 }
-
+/* This is to style the texts of all the paragraphs of texts*/
 p{
 	font-size: 22px;
 	font-family: cursive;
 }
-
+/* This is to style the background color of the  list of linked websites*/
 .mySlides{
 	background-color: grey;
 }
+/* This is to control the size of the images in the second slideshow*/
 .mySlides2{
 	width:50%;
 }
@@ -51,7 +53,7 @@ p{
 .text{
 	column-count: 2;
 }
-
+/* This is to style the text of the first paragraph of text*/
 .general{
 	background-color: white;
 	color: black;
@@ -59,6 +61,7 @@ p{
 	padding:0px 30px;
 	float: right;
 }
+/* This is to style the text of the second paragraph of the website*/
 .why{
 	background-color: white;
 	color: black;
@@ -66,6 +69,7 @@ p{
 	height: 500px;
 	float: left;
 }
+/* This is to style the left button of the slideshow*/
 .blackleftbutton{
 	background-color:yellow;
 	position: absolute;
@@ -82,7 +86,7 @@ p{
 	cursor: pointer;
 	white-space: nowrap;
 }
-
+/* This is to style the right button of the slideshow*/
 .blackrightbutton{
 	background-color:yellow;
 	position: absolute;
@@ -99,7 +103,7 @@ p{
 	cursor: pointer;
 	white-space: nowrap;	
 }
-
+/* This is to style the 2nd left button of the slideshow*/
 .blackleftbutton2{
 	background-color:yellow;
 	position: absolute;
@@ -116,7 +120,7 @@ p{
 	cursor: pointer;
 	white-space: nowrap;
 }
-
+/* This is to style the 2nd right button of the slideshow*/
 .blackrightbutton2{
 	background-color:yellow;
 	position: absolute;
@@ -161,16 +165,18 @@ h3{
 	font-size: 30px
 }
 
+/* This is to style the tables of the bikes website page*/
 .table{
 	border-collapse: collapse;
 	width: 100%;
 }
-
+/* This is to style the table headers of the tables in the bikes page*/
 th{
+	font-size: 25px;
 	border: 5px dashed maroon;
 	width: 25%;
 }
-
+/* This is to style the table data of the tables in the bikes page*/
 td{
 	border: 4px dashed blue;
 	width: 25%;
